@@ -16,7 +16,12 @@ const Download = () => {
           </p>
         </div>
 
-        <a className={styles.btnPrimary} href="#">
+        <a
+          className={styles.btnPrimary}
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/isiakaabd/react-native-sites.git"
+        >
           Source Code
         </a>
         <div className={styles.flexCenter}>
